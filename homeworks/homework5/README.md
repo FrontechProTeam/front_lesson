@@ -33,10 +33,3 @@ JavaScriptでランダムな数を生成するのにはMath.randomを使いま�
 出力例1: 3
 出力例2: ラッキー７😎
 ```
-
-## mutual_number
-配列EVENと配列ODDを交互に組み合わせて新しい配列NUMBERを作りましょう！
-```
-入力: const EVEN = [0,2,4,6,8,10] , const ODD = [1,3,5,7,9]
-出力: const NUMBER = [1,2,3,4,5,6,7,8,9,10]
-```
