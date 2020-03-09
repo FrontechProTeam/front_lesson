@@ -26,9 +26,17 @@ arrayの中身の数字を全て合計して出力しましょう
 ```
 
 ## lucky7
-0~9のランダムな文字を生成し、7だった時は「ラッキ－７😎」と出力しましょう
+0~9のランダムな文字を生成し、7だった時は「ラッキ－７😎」と出力し、それ以外の数のときは数をそのまま出力しましょう!  
+JavaScriptでランダムな数を生成するのにはMath.randomを使います。  
+参考: https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 ```
 出力例1: 3
 出力例2: ラッキー７😎
 ```
 
+## mutual_number
+配列EVENと配列ODDを交互に組み合わせて新しい配列NUMBERを作りましょう！
+```
+入力: const EVEN = [0,2,4,6,8,10] , const ODD = [1,3,5,7,9]
+出力: const NUMBER = [1,2,3,4,5,6,7,8,9,10]
+```
