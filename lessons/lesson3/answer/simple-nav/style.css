@@ -24,4 +24,5 @@
 
 .nav-list__item:hover {
   border-bottom: 3px solid #f00;
+  transition: 0.5s;
 }
